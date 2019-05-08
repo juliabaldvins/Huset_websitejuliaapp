@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Huset-KBH - Prototype</title>
+</head>
+
+<header class="header">
+    <img class="arrow open-btn" src="img/burger_menu.svg" alt="H Menu logo" />
+    <img class="arrow close-btn hide" src="img/burger_menu.svg" alt="H Menu logo" />
+
+    <div class="overlay hide">
+        <nav>
+            <ul class="burger-bar" id="overlay">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="headerContent">
+        <div>
+            <ul class="nav-bar">
+                <li><a href="#events">Events</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <main>
+
+        <div class="eventDetailsImage">
+            <img src="" alt="eventImage">
+            <h1 class="eventDetailsTitle">
+                title
+            </h1>
+        </div>
+
+        <section class="eventDetails">
+            <p class="eventDetailsType">
+                event type
+            </p>
+            <p class="eventDetailsDate">
+                12.03.1996
+            </p>
+
+            <p class="eventDetailsDescription">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora veritatis voluptas possimus ullam,
+                asperiores laborum sint debitis. Hic, cum tempora! Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Tempora veritatis voluptas possimus ullam,
+                asperiores laborum sint debitis. Hic, cum tempora!
+            </p>
+        </section>
+
+    </main>
+
+    <template>
+        <article class="eventcard">
+            <img class="eventImage" />
+            <div class=" articlecontent">
+                <p class="eventType">Event type</p>
+                <br />
+                <h3>title</h3>
+                <p class="date">date</p>
+                <div class="price">
+                    <p>price</p>
+                </div>
+            </div>
+        </article>
+
+    </template>
+    <script src="js/event.js"></script>
+</body>
+
+
+</html>
